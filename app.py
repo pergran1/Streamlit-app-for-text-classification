@@ -15,7 +15,6 @@ from river.compose import Pipeline
 
 data = pd.read_csv('fanfic_test.csv')
 
-print(data.head())
 
 # convert the data into a list with sets for each observation
 data = list(zip(data.story, data.rating))
@@ -121,7 +120,7 @@ def main():
                     
                     #### Example:
                     The text **"You look like a sexy man"** is classified as Explicit, and when the word **"sexy"**
-                    is removed so only "You look lika a man" is left than the text is classified as Generas, meaning 
+                    is removed so only **"You look lika a man"** is left than the text is classified as Generic, meaning 
                     that **"sexy"** had a large impact on the classification. 
                     """
                 )
