@@ -28,10 +28,10 @@ predict_dic = {'word': [], 'prediction': [], 'explicit_prob': [], 'general_prob'
 
 
 def main():
-    menu = ['Home', 'About']
+    menu = ['Classification Model', 'About']
 
     choice = st.sidebar.selectbox('Selection menu', menu)
-    if choice == 'Home':
+    if choice == 'Classification Model':
         st.subheader('Prediction between General and Explicit text')
         with st.form(key='mlform'):
             col1, col2 = st.columns([2, 1])
@@ -149,13 +149,21 @@ def main():
             """
             ## Hello! 🙌
             
-            This is a fun little project I created after learning how to web scrape data from websites. 
+            This is a fun little project I created after writing code to extract fanfiction data from a website. 
+            The original idea with the data was to create a model that would write fanfiction on its own by learning from the data.
+            But I noticed that a classification model that would classify between a "general" text or text that is "explicit" (have dirty words) 🙈 would
+            also be a fun challenge.  
+
+            I also wanted to explore the black box problem when creating deep learning models, I therefore created an algorithm that would classify the same text but
+            one word would be removed one step at a time. By doing this I would be able to see which word that had the biggest impact on the classification. 
             
-            The idea of the project is to create a model that can tell if a text 
+            A model like this would be able to filter out text or warn young users that the message or text they are about to see might contain language that are inappropriate. 
             
-            The github with the code can be found [here](https://github.com/pergran1?tab=repositories)
+            The GitHub repository with the code can be found [here](https://github.com/pergran1/Streamlit-app-for-text-classification)
             
-            My linkedin is found [here](https://www.linkedin.com/in/per-granberg-579969108/)
+            My LinkedIn is found [here](https://www.linkedin.com/in/per-granberg-579969108/)
+
+
             """
         )
 
