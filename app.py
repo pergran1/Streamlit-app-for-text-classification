@@ -2,6 +2,7 @@
 # https://www.section.io/engineering-education/online-machine-learning-with-river-python/
 # https://github.com/discdiver/data-viz-streamlit/blob/main/app.py  <-- very good example
 # https://www.youtube.com/watch?v=kXvmqg8hc70   how to deploy the app
+# https://share.streamlit.io/  link to streamlit
 # this is an app for streamlit
 # use the anaconda "streamlit" enviroment
 import streamlit as st
