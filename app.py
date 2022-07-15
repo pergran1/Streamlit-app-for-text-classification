@@ -3,6 +3,7 @@
 # https://github.com/discdiver/data-viz-streamlit/blob/main/app.py  <-- very good example
 # https://www.youtube.com/watch?v=kXvmqg8hc70   how to deploy the app
 # https://share.streamlit.io/  link to streamlit
+# https://pergran1-streamlit-app-for-text-classification-app-8asu6b.streamlitapp.com/  link to the streamlit app
 # this is an app for streamlit
 # use the anaconda "streamlit" enviroment
 import streamlit as st
